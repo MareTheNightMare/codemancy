@@ -55,7 +55,6 @@ export class AppComponent implements OnInit {
       .subscribe((data: any) => {
         const post = this.posts.find((obj) => obj.id == data.id);
         post.comments.push(data.comment)
-        console.log(data)
       });
   }
 
@@ -83,7 +82,6 @@ export class AppComponent implements OnInit {
       id: postId,
       comment: postComment
     }
-    console.log(comm.id)
     this.socketService.postComment(comm)
   }
 }
