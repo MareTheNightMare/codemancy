@@ -1,0 +1,110 @@
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 500px;
+    margin: 20px;
+}
+
+textarea {
+    height: 250px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.posts {
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.post-container {
+    height: 100%;
+}
+
+.title {
+    padding-left: 20px;
+    height: 30%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content {
+    height: 70%;
+    font-size: medium;
+    margin-left: 20px;
+    word-break: break-all;
+}
+
+.date {
+    float: right;
+    margin-top: 20px;
+}
+
+.comments-button {
+    margin-top: 10px; 
+    margin-left: 20px;
+    float: left;
+}
+
+.comments-date-container {
+    margin-top: 20px;
+}
+
+.comments-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    float:left;
+}
+
+.comments-container input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 100%;
+    margin: 20px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E7E7;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.comments2 {
+    display: flex;
+    width: 107.7%;
+    margin-left: -2px;
+}
+
+body {
+    background-color: lightcyan;
+}
